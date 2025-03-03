@@ -131,7 +131,7 @@ class MenuWindow(QMainWindow):
         
         self.order_list = QListWidget(self)
         
-        self.total_label = QLabel(f"Total: $0.00", self)  # Display total price
+        self.total_label = QLabel(f"Total: $0.00", self) 
         
         self.complete_order_button = QPushButton("Complete Order", self)
         self.complete_order_button.clicked.connect(self.complete_order)
